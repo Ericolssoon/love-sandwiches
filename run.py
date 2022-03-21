@@ -99,7 +99,6 @@ def get_last_5_entries_sales():
         columns.append(column[-5:])
 
     return columns
-    
 
 
 def calculate_stock_data(data):
@@ -117,7 +116,6 @@ def calculate_stock_data(data):
 
     return new_stock_data
 
- 
 
 def main():
     """
@@ -135,4 +133,3 @@ def main():
 
 print("Welcome to Love Sandwiches Data Automation")
 main()
-
